@@ -39,7 +39,7 @@ li.forEach(e => {
 })
 if (mainBackground !== null) {
     backgroundOption = false;
-    page.style.backgroundImage = `url("../Images/${mainBackground}")`;
+    page.style.backgroundImage = `url("Images/${mainBackground}")`;
     activeImg(mainBackground)
 }
 
@@ -105,7 +105,7 @@ function randomizeBack(){
                         if(getRandomNumber === true){
                             randomNum = Math.floor(Math.random() * imgArrays.length)
                             const currentImage = imgArrays[randomNum];
-                            page.style.backgroundImage = `url("../Images/${currentImage}")`;
+                            page.style.backgroundImage = `url("Images/${currentImage}")`;
                             localStorage.setItem("background-option", currentImage);
                             activeImg(currentImage) //Active class to Image
                         } else{
@@ -114,7 +114,7 @@ function randomizeBack(){
                         }
                     }
                     randomNums()
-                    page.style.backgroundImage = `url("../Images/${imgArrays[randomNum]}")`
+                    page.style.backgroundImage = `url("Images/${imgArrays[randomNum]}")`
                 }, 1000)
         }
 }
