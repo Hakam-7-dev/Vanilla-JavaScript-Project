@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Special Desgin</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
     <link rel="stylesheet" href="CSS/Normalize.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/all.min.css">
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="background-Img">
-                <img src="Images/01.jpg" alt="" class="active" data-bg="01.jpg" loading="eager" fetchpriority="high">
+                <picture><img src="Images/01.jpg" alt="" class="active" data-bg="01.jpg" loading="eager" fetchpriority="high"></picture>
                 <img src="Images/02.jpg" alt="" class="" data-bg="02.jpg" loading="eager" fetchpriority="high">
                 <img src="Images/03.jpg" alt="" class="" data-bg="03.jpg" loading="eager" fetchpriority="high">
                 <img src="Images/04.jpg" alt="" class="" data-bg="04.jpg" loading="eager" fetchpriority="high">
@@ -319,6 +319,6 @@
         </div>
       </div>
       <!-- End contact us -->
-    <script src="JS/main.js" defer></script>
+    <script src="JS/main.js" async></script>
 </body>
 </html>
